@@ -1,0 +1,38 @@
+.cartHeading{
+    color: black;
+    margin-top: 25px;
+  }
+  .cartBig{
+    margin-left: 30px;
+  }
+  
+  .cartImg{
+     border-radius: 50%;
+     height: 50px;
+     width: 60px;
+     border: 2px solid gray;
+     margin: 2px 5px 0 5px;
+     padding: 2px 0 0 5px;
+  }
+  
+  .cartDetails{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:2px;
+  }
+  .cartTitle{
+    margin: 0.5px 0 0 0;  
+  }
+  .cartId{
+    margin: 5px 0 0 0; 
+    color: gray;
+    padding-top: 5px;
+  }
+  .cartSide{
+    margin-left: 5px;
+  }
+  
+  .cartPrice{
+    margin-top: 25px;
+    margin-left: 15px;
+  }

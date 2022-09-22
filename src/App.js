@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';  
+import NavHead from './Nav';
+import Form from './form';
+import Cart from './Cart';
+import Payment from './method';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+           <NavHead />
+        <div className='appBody'>
+            <Form />
+        
+            <Payment />
+            
+            <Cart />
+
+        </div>       
     </div>
   );
 }
